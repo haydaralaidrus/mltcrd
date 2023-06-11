@@ -1,0 +1,10 @@
+prefix=@PKG_CONFIG_PREFIX@
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: @PKG_CONFIG_NAME@
+Description: @PKG_CONFIG_DESCRIPTION@
+Version: @PKG_CONFIG_VERSION@
+Libs: @PKG_CONFIG_LIBS@
+Cflags: @PKG_CONFIG_CFLAGS@
